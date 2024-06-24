@@ -34,7 +34,7 @@ export default function NavbarContainer({ toggleTheme, theme }: any) {
     <>
       <Navbar>
         <Link color="foreground" href="/">
-          <p className="font-bold text-xl text-mono">ANIMUNET</p>
+          <p className="font-bold text-xl text-mono">YaeAniplay</p>
         </Link>
         <NavbarContent className="">
           <Dropdown>
