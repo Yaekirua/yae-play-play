@@ -4,11 +4,11 @@ const Terms = () => {
       <h1 className="text-3xl font-bold mb-4">Terms of Service</h1>
       <p className="mb-4">
         <strong className="font-bold">Acceptance of Terms:</strong> By using
-        Animunet, you agree to these Terms of Service and acknowledge that they
+        YaeAniplay, you agree to these Terms of Service and acknowledge that they
         affect your legal rights and obligations.
       </p>
       <p className="mb-4">
-        <strong className="font-bold">Content:</strong> Animunet does not host
+        <strong className="font-bold">Content:</strong> YaeAnimplay does not host
         video content but embeds videos from various third-party sources. We are
         not responsible for the content, quality, or the policies of these
         external sites.
