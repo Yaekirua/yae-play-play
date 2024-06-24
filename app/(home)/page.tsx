@@ -171,7 +171,7 @@ const Main = () => {
          )}
        </Suspense>
        <Suspense fallback={<Spinner color="success" size="lg" />}>
-         <h2 className="text-4xl font-bold mb-4 py-4 font-mono">TOP AIRING</h2>
+         <h2 className="text-4xl font-bold mb-4 py-4 font-mono">TOP AIRING ANIME THIS MONTH</h2>
          {isLoading ? (
            <div className="mt-2 items-center grid grid-cols-2 sm:grid-cols-4 md:grid-cols-3 lg:grid-cols-7 gap-4">
              {Array.from({ length: 14 }, (_, index) => (
@@ -208,7 +208,7 @@ const Main = () => {
          )}
        </Suspense>
        <Suspense fallback={<Spinner color="success" size="lg" />}>
-         <h2 className="text-4xl font-bold mb-4 py-4 font-mono">POPULAR</h2>
+         <h2 className="text-4xl font-bold mb-4 py-4 font-mono">POPULAR ANIME</h2>
          {isLoading ? (
            <div className="mt-2 items-center grid grid-cols-2 sm:grid-cols-4 md:grid-cols-3 lg:grid-cols-7 gap-4">
              {Array.from({ length: 21 }, (_, index) => (
